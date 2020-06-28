@@ -1,118 +1,129 @@
 #usr/bin/bash
 clear
-bi='\033[34;1m' #cyan
-i='\033[32;1m' #red
-pur='\033[35;1m' #blue
-cy='\033[36;1m' #yellow
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
-pu='\033[37;1m' #pink
-ku='\033[33;1m' #green
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+# Jangan Recode Ya gayn
 echo
 echo
 echo
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
-echo $i" |"$cy"  WEB DOCTOR V1.1 update comingup 30/06/2020 "$i"|"
+echo $i" |"$cy"  WEB DOCTOR V1.1 UPDATE COMING UP 30/06/2028"$i"         |"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
-echo $i" |"$pu"                                   "$i"          |"
-echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
-echo $i" |"$pu" WhatsApp :"$ku" +94774593440.        "$i"             |"
+echo $i" |"$pu" FACEBOOK :"$ku" Riski Darmawan"$i"                   |"
+echo $i" |"$pu" Contack WhatsApp :"$ku" 085835787069"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
-echo $i"         |───|─────────────────────────|    "
-echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT v6 INSTALL.  "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 2"$i" |"$cy" METASPLOIT v9 INSTALL.  "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 3"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 4"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 5"$i" |"$cy" UNINSTALL UBUNTU.       "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 6"$i" |"$cy" UNINSTALL KALI.         "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 7"$i" |"$cy" INSTALL PKGS.           "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 8"$i" |"$cy" UPDATE.                 "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 9"$i" |"$cy" EXIT.                   "$i"|"$i"    "$cy" "$i" "
-echo $i"         |───|─────────────────────────|"$i"    "$cy" "$i" "
+echo $i"────────────────────────────────    ─────"
+echo $i"|"$me" 1"$i" |"$cy" BRUTEFORCE FB PHP        "$i"|"$i"    |"$cy" B"$i" |"
+echo $i"|"$me" 2"$i" |"$cy" BRUTEFORCE FB BR1G4D3    "$i"|"$i"    |"$cy" E"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" BRUTEFORCE FB iqbalz     "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"    |"$cy" G"$i" |"
+echo $i"|"$me" 5"$i" |"$cy" FACEBRUTE N1ght420       "$i"|"$i"    |"$cy" K"$i" |"
+echo $i"|"$me" 6"$i" |"$cy" BRUTEFORCE FB ( root )   "$i"|"$i"    |"$cy" E"$i" |"
+echo $i"|"$me" 7"$i" |"$cy" YAHOO CLONING FACEBOOK   "$i"|"$i"    ─────"
+echo $i"|"$me" 8"$i" |"$cy" PROFILE GUARD FACEBOOK   "$i"|"$i"    |"$cy" F"$i" |"
+echo $i"|"$me" 9"$i" |"$cy" REPORT FACEBOOK WORK     "$i"|"$i"    |"$cy" A"$i" |"
+echo $i"────────────────────────────────"$i"    |"$cy" O"$i" |"
 echo $me"¦"
-read -p"|>>¥øÛŕ ©HôI¢£<< " pil
+read -p"└──# " pil
 
 if [ $pil = 1 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-cd mega.py
-if
+git clone https://github.com/FR13ND8/fbbrute
+cd fbbrute
+php fb.php
+fi
 
 if [ $pil = 2 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-cd $HOME
-pkg install unstable-repo
-pkg install metasploit
-if
+git clone https://github.com/FR13ND8/Fb-Cracker-v.3
+cd Fb-Cracker-v.3
+python2 crack.py
+fi
 
 if [ $pil = 3 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+git clone https://github.com/IqbalzNoobs/fb-brute
+cd fb-brute
+python2 brute.py
 fi
 
 if [ $pil = 4 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+git clone https://github.com/FR13ND8/mbf
+cd mbf
+python2 MBF.py
 fi
 
 if [ $pil = 5 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh
+git clone https://github.com/N1ght420/FaceBrute
+cd FaceBrute
+python fb.py
 fi
 
 if [ $pil = 6 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash 
+git clone https://github.com/thelinuxchoice/facebash.git
+cd facebash
+bash facebash.sh
 fi
 
 if [ $pil = 7 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-apt update && apt upgrade
-apt install python2
-pip2 install urllib3 chardet certifi idna requests
-pkg install git
-pip2 install mechanize
-pkg install curl
-pkg install ruby
-pkg install gem
-gem install lolcat
-pkg install git
-pkg install php
-pkg install ruby cowsay toilet figlet
-pkg install neofetch
-pkg install nano
+git clone https://github.com/FR13ND8/EmailVuln
+cd EmailVuln
+python2 vuln.py
 fi
 
 if [ $pil = 8 ]
 then
 clear
+figlet -f slant "W A I T"|lolcat
 sleep 1
-cd  $HOME
-rm  -rf aa
-git clone https://github.com/shehan99099/aa
-cd $HOME
-cd aa
-sh aa
+git clone https://github.com/FR13ND8/ProfileGuardFb
+cd ProfileGuardFb
+php guard.php
 fi
 
 if [ $pil = 9 ]
 then
 clear
+figlet -f slant "E X I T"|lolcat
 sleep 2
+echo $cy"Terima Kasih Sudah Pakai Tool Saya"
+sleep 2
+echo $i"Bila Ada Kesalahan Kamu Bisa Nanya Kepada Saya"
+sleep 2
+echo $ku"WhatsApp :"$i" 085835787069"
+echo $ku"Facebook :"$i" Riski Darmawan"
+sleep 2
+echo $pur">> Thanks Yang Sudah Support Saya <<"
 exit
 fi
