@@ -10,7 +10,7 @@ ku='\033[33;1m' #green
 echo
 echo
 echo
-echo $i" |"$cy"     WEB DOCTOR V1.0.1 updating coming up 30/06/2020"$i"         |"
+echo $i" |"$cy"WEB DOCTOR V1.1 update comingup 30/06/2020"$i"|"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
 echo $i" |"$pu"                                    "$i"          |"
 echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
