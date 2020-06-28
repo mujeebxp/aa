@@ -29,7 +29,7 @@ echo $i"         |"$ku" 5"$i" |"$pin" UNINSTALL UBUNTU.       "$i"|"
 echo $i"         |"$i" 6"$i" |"$pin" UNINSTALL KALI.         "$i"|"
 echo $i"         |"$bi" 7"$i" |"$pin" INSTALL PKGS.           "$i"|"
 echo $i"         |"$cy" 8"$i" |"$pin" UPDATE.                 "$i"|"
-echo $i"         |"$cy" 9"$i" |"$pin" cominup                 "$i"|"
+echo $i"         |"$cy" 9"$i" |"$pin" reamove tool            "$i"|"
 echo $i"         |"$me" 0"$i" |"$pin" EXIT.                   "$i"|"
 echo $pu"    ─────|────────────────────────────|─────"
 echo $me"¦"
@@ -148,9 +148,9 @@ fi
 if [ $pil = 9 ]
 then
 clear
-figlet -f slant "W A I T"|lolcat
+figlet -f slant "W E L L C O M E"|lolcat
 sleep 1
-echo $i"coming up"
+rm -rf aa
 if
 
 if [ $pil = 0 ]
