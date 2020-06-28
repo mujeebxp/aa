@@ -1,33 +1,32 @@
 #usr/bin/bash
 clear
-bi='\033[34;1m' #biru
-i='\033[32;1m' #ijo
+bi='\033[34;1m' #blue
+i='\033[32;1m' #red
 pur='\033[35;1m' #purple
 cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
-pu='\033[37;1m' #putih
-ku='\033[33;1m' #kuning
-# Jangan Recode Ya gayn
+pu='\033[37;1m' #pink
+ku='\033[33;1m' #green
 echo
 echo
 echo
 echo $i" |"$cy"                                    "$i"         |"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
-echo $i" |"$pu"                                "$i"          |"
-echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                   |"
+echo $i" |"$pu"                                      "$i"          |"
+echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo
 echo $i"────────────────────────────────    ─────"
 echo $i"|"$me" 1"$i" |"$cy" METASPLOIT INSTALL      "$i"|"$i"    |"$cy" B"$i" |"
 echo $i"|"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.          "$i"|"$i"    |"$cy" N"$i" |"
-echo $i"|"$me" 4"$i" |"$cy" TOOL UPDATE.  "$i"|"$i"    |"$cy" G"$i" |"
-echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS             "$i"|"$i"    |"$cy" K"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 4"$i" |"$cy" TOOL UPDATE.        "$i"|"$i"    |"$cy" G"$i" |"
+echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS            "$i"|"$i"    |"$cy" K"$i" |"
 echo $i"|"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"
+echo $i"────────────────────────────────"$i"   
 echo $me"¦"
-read -p"└──# " pil
+read -p"|••......... " pil
 
 if [ $pil = 1 ]
 then
@@ -94,7 +93,7 @@ fi
 if [ $pil = 4 ]
 then
 clear
-figlet -f slant "W A I T"|lolcat
+figlet -f pink "W A I T"|lolcat
 sleep 1
 cd  $HOME
 rm  -rf aa
