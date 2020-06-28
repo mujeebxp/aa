@@ -36,6 +36,7 @@ if [ $pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
+sleep 1
 apt-get update -y
 apt-get upgrade -y
 pkg install python2 -y
@@ -56,34 +57,13 @@ apt -f install -y
 pkg install metasploit -y
 apt --fix-broken install -y
 dpkg --configure -a
-apt-get update -y
-apt-get upgrade -y
-pkg install python2 -y
-pkg install python -y
-pkg install git -y
-pip install --upgrade pip
-pip install lolcat 
-pkg install nano -y
-termux-setup-storage
-pkg install wget -y
-pkg install openssh -y
-pkg install ruby -y
-pkg install curl -y
-curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
-gunzip metasploit_5.0.65-1_all.deb.gz
-dpkg -i metasploit_5.0.65-1_all.deb 
-apt -f install -y
-pkg install metasploit -y
-apt --fix-broken install -y
-dpkg --configure -a
-clear
-msfconsole
 fi
 
 if [ $pil = 2 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
+sleep 1
 pkg install unstable-repo
 pkg install metasploit
 if
@@ -112,6 +92,7 @@ if [ $pil = 5 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
+sleep 1
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh
 fi
 
@@ -119,6 +100,7 @@ if [ $pil = 6 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
+sleep 1
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh
 figlet -f slant "SUCCESS"|lolcat
 fi
@@ -126,6 +108,7 @@ fi
 if [ $pil = 7 ]
 then
 clear
+sleep 1
 apt update && apt upgrade
 apt install python2
 pip2 install urllib3 chardet certifi idna requests
