@@ -18,7 +18,7 @@ echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593770"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
-echo $i"         ───|────────────────────────────"
+echo $i"         ────|───────────────────────────"
 echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT v6 INSTALL.  "$i"|"
 echo $i"         |"$me" 2"$i" |"$cy" METASPLOIT v9 INSTALL.  "$i"|"
 echo $i"         |"$me" 3"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"
@@ -27,8 +27,8 @@ echo $i"         |"$me" 5"$i" |"$cy" UNINSTALL UBUNTU.       "$i"|"
 echo $i"         |"$me" 6"$i" |"$cy" UNINSTALL KALI.         "$i"|"
 echo $i"         |"$me" 7"$i" |"$cy" INSTALL PKGS.           "$i"|"
 echo $i"         |"$me" 8"$i" |"$cy" UPDATE.                 "$i"|"
-echo $i"         |"$me" 9"$i" |"$cy" EXIT.          "$i"|"
-echo $i"         ───|────────────────────────────"
+echo $i"         |"$me" 9"$i" |"$cy" EXIT.                   "$i"|"
+echo $i"         ────|───────────────────────────"
 echo $me"¦"
 read -p" ¥øuř ©hôïç€ " pil
 
@@ -37,9 +37,28 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/fbbrute
-cd fbbrute
-php fb.php
+apt-get update -y
+apt-get upgrade -y
+pkg install python2 -y
+pkg install python -y
+pkg install git -y
+pip install --upgrade pip
+pip install lolcat 
+pkg install nano -y
+termux-setup-storage
+pkg install wget -y
+pkg install openssh -y
+pkg install ruby -y
+pkg install curl -y
+curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
+gunzip metasploit_5.0.65-1_all.deb.gz
+dpkg -i metasploit_5.0.65-1_all.deb 
+apt -f install -y
+pkg install metasploit -y
+apt --fix-broken install -y
+dpkg --configure -a
+sleep 2.0
+msfconsole
 fi
 
 if [ $pil = 2 ]
@@ -47,9 +66,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/Fb-Cracker-v.3
-cd Fb-Cracker-v.3
-python2 crack.py
+pkg install unstable-repo
+pkg install metasploit
 fi
 
 if [ $pil = 3 ]
@@ -57,9 +75,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/IqbalzNoobs/fb-brute
-cd fb-brute
-python2 brute.py
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 fi
 
 if [ $pil = 4 ]
@@ -67,9 +84,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/mbf
-cd mbf
-python2 MBF.py
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 fi
 
 if [ $pil = 5 ]
@@ -77,9 +93,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/N1ght420/FaceBrute
-cd FaceBrute
-python fb.py
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Ubuntu/UNI-ubuntu.sh && bash UNI-ubuntu.sh
 fi
 
 if [ $pil = 6 ]
@@ -87,9 +101,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/thelinuxchoice/facebash.git
-cd facebash
-bash facebash.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Uninstaller/Kali/UNI-kali.sh && bash UNI-kali.sh
 fi
 
 if [ $pil = 7 ]
@@ -97,9 +109,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/EmailVuln
-cd EmailVuln
-python2 vuln.py
+
 fi
 
 if [ $pil = 8 ]
