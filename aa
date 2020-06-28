@@ -23,7 +23,7 @@ echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT INSTALL.     "$i"|"$i"    "$cy" 
 echo $i"         |"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 3"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 4"$i" |"$cy" TOOL UPDATE.            "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 5"$i" |"$cy"                          "$i"|"$i"    "$cy" "$i" "
+echo $i"         |"$me" 5"$i" |"$cy"                         "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 6"$i" |"$cy" INSTALL PKGS.           "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 7"$i" |"$cy" EXIT.                   "$i"|"$i"    "$cy" "$i" "
 echo $i"         |───|─────────────────────────|"$i"    "$cy" "$i" "
@@ -34,7 +34,7 @@ if [ $pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-fiet -f slant "SUCCESS"|lolcat
+figlet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 2 ]
@@ -44,7 +44,7 @@ figlet -f slant "W A I T"|lolcat
 sleep 1
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
-fiet -f slant "SUCCESS"|lolcat
+figlet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 3 ]
@@ -54,7 +54,7 @@ figlet -f slant "W A I T"|lolcat
 sleep 1
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
-fiet -f slant "SUCCESS"|lolcat
+figlet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 4 ]
@@ -68,14 +68,14 @@ git clone https://github.com/shehan99099/aa
 cd $HOME
 cd aa
 sh aa
-fiet -f slant "SUCCESS"|lolcat
+figlet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 5 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-fiet -f slant "SUCCESS"|lolcat
+figlet -f slant "SUCCESS"|lolcat
 fi
 
 
