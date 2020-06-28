@@ -3,7 +3,7 @@ clear
 bi='\033[34;1m' #biru
 i='\033[32;1m' #ijo
 pur='\033[35;1m' #purple
-cy='\033[36;1m' #cyan
+pin='\033[36;1m' #pink
 me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
@@ -21,15 +21,15 @@ echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593770"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"──────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
 echo $slant"         ────|───────────────────────────"
-echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT v6 INSTALL.  "$i"|"
-echo $i"         |"$cy" 2"$i" |"$cy" METASPLOIT v9 INSTALL.  "$i"|"
-echo $i"         |"$pu" 3"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"
+echo $i"         |"$me" 1"$i" |"$pin" METASPLOIT v6 INSTALL.  "$i"|"
+echo $i"         |"$cy" 2"$i" |"$pin" METASPLOIT v9 INSTALL.  "$i"|"
+echo $i"         |"$pu" 3"$i" |"$pin" INSTALL KALI LINUX.     "$i"|"
 echo $i"         |"$purl" 4"$i" |"$cy" INSTALL UBUNTU.         "$i"|"
-echo $i"         |"$ku" 5"$i" |"$cy" UNINSTALL UBUNTU.       "$i"|"
-echo $i"         |"$i" 6"$i" |"$cy" UNINSTALL KALI.         "$i"|"
-echo $i"         |"$bi" 7"$i" |"$cy" INSTALL PKGS.           "$i"|"
-echo $i"         |"$cy" 8"$i" |"$cy" UPDATE.                 "$i"|"
-echo $i"         |"$me" 9"$i" |"$cy" EXIT.                   "$i"|"
+echo $i"         |"$ku" 5"$i" |"$pin" UNINSTALL UBUNTU.       "$i"|"
+echo $i"         |"$i" 6"$i" |"$pin" UNINSTALL KALI.         "$i"|"
+echo $i"         |"$bi" 7"$i" |"$pin" INSTALL PKGS.           "$i"|"
+echo $i"         |"$cy" 8"$i" |"$pin" UPDATE.                 "$i"|"
+echo $i"         |"$me" 9"$i" |"$pin" EXIT.                   "$i"|"
 echo $i"         ────|───────────────────────────"
 echo $me"¦"
 read -p" ¥øuř ©hôïç€ " pil
