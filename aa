@@ -37,6 +37,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+cd mega.py
 if
 
 if [ $pil = 2 ]
@@ -44,6 +45,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+cd $HOME
 pkg install unstable-repo
 pkg install metasploit
 if
