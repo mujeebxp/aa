@@ -19,7 +19,7 @@ echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
 echo $i"         |───|─────────────────────────|    "
-echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT INSTALL.     "$i"|"$i"    "$cy" "$i" "
+echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT v6 INSTALL. "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 3"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 4"$i" |"$cy" TOOL UPDATE.            "$i"|"$i"    "$cy" "$i" "
@@ -34,10 +34,48 @@ if [ $pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-cd $HOME
-cd mega.py
-python Megarun.py
-figlet -f slant "SUCCESS"|lolcat
+apt-get update -y
+apt-get upgrade -y
+pkg install python2 -y
+pkg install python -y
+pkg install git -y
+pip install --upgrade pip
+pip install lolcat 
+pkg install nano -y
+termux-setup-storage
+pkg install wget -y
+pkg install openssh -y
+pkg install ruby -y
+pkg install curl -y
+curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
+gunzip metasploit_5.0.65-1_all.deb.gz
+dpkg -i metasploit_5.0.65-1_all.deb 
+apt -f install -y
+pkg install metasploit -y
+apt --fix-broken install -y
+dpkg --configure -a
+apt-get update -y
+apt-get upgrade -y
+pkg install python2 -y
+pkg install python -y
+pkg install git -y
+pip install --upgrade pip
+pip install lolcat 
+pkg install nano -y
+termux-setup-storage
+pkg install wget -y
+pkg install openssh -y
+pkg install ruby -y
+pkg install curl -y
+curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
+gunzip metasploit_5.0.65-1_all.deb.gz
+dpkg -i metasploit_5.0.65-1_all.deb 
+apt -f install -y
+pkg install metasploit -y
+apt --fix-broken install -y
+dpkg --configure -a
+clear
+msfconsole
 fi
 
 if [ $pil = 2 ]
