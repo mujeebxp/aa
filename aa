@@ -18,14 +18,15 @@ echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
-echo $i"         |────¦────────────────────────|    "
+echo $i"         |───|─────────────────────────|    "
 echo $i"         |"$me" 1"$i" |"$cy" METASPLOIT INSTALL.     "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 3"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    "$cy" "$i" "
 echo $i"         |"$me" 4"$i" |"$cy" TOOL UPDATE.            "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 5"$i" |"$cy" INSTALL PKGS.           "$i"|"$i"    "$cy" "$i" "
-echo $i"         |"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    "$cy" "$i" "
-echo $i"         |────¦────────────────────────|"$i"    "$cy" "$i" "
+echo $i"         |"$me" 5"$i" |"$cy"                          "$i"|"$i"    "$cy" "$i" "
+echo $i"         |"$me" 6"$i" |"$cy" INSTALL PKGS.           "$i"|"$i"    "$cy" "$i" "
+echo $i"         |"$me" 7"$i" |"$cy" EXIT.                   "$i"|"$i"    "$cy" "$i" "
+echo $i"         |───|─────────────────────────|"$i"    "$cy" "$i" "
 echo $me"¦"
 read -p"|>>¥øÛŕ ©HôI¢£<< " pil
 
@@ -33,43 +34,7 @@ if [ $pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 1
-#/termux/data/data/bin/bash
-apt-get update -y
-apt-get upgrade -y
-pkg install python2 -y
-pkg install python -y
-pkg install git -y
-pip install --upgrade pip
-pip install lolcat
-pkg install nano -y
-pip install --upgrade pip
-clear
-termux-setup-storage
-echo " " 
-echo " "
-pkg install wget -y
-pkg install openssh -y
-pkg install ruby -y
-pkg install unstable-repo -y
-pkg install metasploit -y
-cd $HOME
-cd ..
-ls
-cd usr
-ls
-cd opt
-ls
-mv metasploit-framework $HOME
-cd $HOME
-ls
-cd metasploit-framework
-git clone https://github.com/noob-hackers/bcp
-wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
-bash fix-ruby-bigdecimal.sh.txt
-echo " "
-echo "          ############# Completed ################" |lolcat                                                                                                        
-echo " "
+fiet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 2 ]
@@ -79,6 +44,7 @@ figlet -f slant "W A I T"|lolcat
 sleep 1
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+fiet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 3 ]
@@ -86,9 +52,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/IqbalzNoobs/fb-brute
-cd fb-brute
-python2 brute.py
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+fiet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 4 ]
@@ -102,9 +68,18 @@ git clone https://github.com/shehan99099/aa
 cd $HOME
 cd aa
 sh aa
+fiet -f slant "SUCCESS"|lolcat
 fi
 
 if [ $pil = 5 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+fiet -f slant "SUCCESS"|lolcat
+fi
+
+
+if [ $pil = 6 ]
 then
 clear
 apt update && apt upgrade
@@ -124,7 +99,7 @@ pkg install nano
 figlet -f slant " S U C C S S F U L"|lolcat
 fi
 
-if [ $pil = 6 ]
+if [ $pil = 7 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
