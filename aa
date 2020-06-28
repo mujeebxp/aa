@@ -29,7 +29,7 @@ echo $i"         |"$ku" 5"$i" |"$pin" UNINSTALL UBUNTU.       "$i"|"
 echo $i"         |"$i" 6"$i" |"$pin" UNINSTALL KALI.         "$i"|"
 echo $i"         |"$bi" 7"$i" |"$pin" INSTALL PKGS.           "$i"|"
 echo $i"         |"$cy" 8"$i" |"$pin" UPDATE.                 "$i"|"
-echo $i"         |"$cy" 9"$i" |"$pin" APKEDITOR               "$i"|"
+echo $i"         |"$cy" 9"$i" |"$pin" cominup                 "$i"|"
 echo $i"         |"$me" 0"$i" |"$pin" EXIT.                   "$i"|"
 echo $pu"    ─────|────────────────────────────|─────"
 echo $me"¦"
@@ -150,8 +150,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-termux-setup_storage
-git clone https://apk-editor.en.uptodown.com/android/download
+echo $i"coming up"
 if
 
 if [ $pil = 0 ]
