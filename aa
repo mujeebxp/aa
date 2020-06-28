@@ -20,7 +20,7 @@ echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593770"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"──────────────────────────────────────────"$i"["$bi"¤"$i"]"
 echo
-echo $pu"    ─────|──────────────────────────"
+echo $pu"    ─────|───────────────────────|─────"
 echo $i"         |"$me" 1"$i" |"$pin" METASPLOIT v6 INSTALL.  "$i"|"
 echo $i"         |"$cy" 2"$i" |"$pin" METASPLOIT v9 INSTALL.  "$i"|"
 echo $i"         |"$pu" 3"$i" |"$pin" INSTALL KALI LINUX.     "$i"|"
@@ -30,7 +30,7 @@ echo $i"         |"$i" 6"$i" |"$pin" UNINSTALL KALI.         "$i"|"
 echo $i"         |"$bi" 7"$i" |"$pin" INSTALL PKGS.           "$i"|"
 echo $i"         |"$cy" 8"$i" |"$pin" UPDATE.                 "$i"|"
 echo $i"         |"$me" 9"$i" |"$pin" EXIT.                   "$i"|"
-echo $pu"    ─────|───────────────────────────"
+echo $pu"    ─────|────────────────────────|────"
 echo $me"¦"
 read -p" ¥øuř ©hôïç€ " pil
 
