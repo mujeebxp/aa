@@ -1,15 +1,16 @@
 #usr/bin/bash
 clear
-bi='\033[34;1m' #blue
+bi='\033[34;1m' #cyan
 i='\033[32;1m' #red
-pur='\033[35;1m' #purple
-cy='\033[36;1m' #cyan
+pur='\033[35;1m' #blue
+cy='\033[36;1m' #yellow
 me='\033[31;1m' #merah
 pu='\033[37;1m' #pink
 ku='\033[33;1m' #green
 echo
 echo
 echo
+echo $i" |"$cy"     WEB DOCTOR V1.0.1 updating coming up 30/06/2020"$i"         |"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
 echo $i" |"$pu"                                    "$i"          |"
 echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
