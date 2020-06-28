@@ -24,7 +24,7 @@ echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.         "$i"|"$i"    |"$cy" N"$i" |"
 echo $i"|"$me" 4"$i" |"$cy" TOOL UPDATE.        "$i"|"$i"    |"$cy" G"$i" |"
 echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS            "$i"|"$i"    |"$cy" K"$i" |"
 echo $i"|"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"────────────────────────────────"$i"   
+echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"
 echo $me"¦"
 read -p"|••......... " pil
 
