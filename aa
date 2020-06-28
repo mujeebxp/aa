@@ -151,7 +151,7 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 termux-setup_storage
-https://apk-editor.en.uptodown.com/android/download
+git clone https://apk-editor.en.uptodown.com/android/download
 if
 
 if [ $pil = 0 ]
