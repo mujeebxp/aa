@@ -92,7 +92,7 @@ fi
 if [ $pil = 4 ]
 then
 clear
-figlet -f pink "W A I T"|lolcat
+figlet -f slant "W A I T"|lolcat
 sleep 1
 cd  $HOME
 rm  -rf aa
