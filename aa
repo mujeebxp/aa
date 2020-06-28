@@ -25,9 +25,9 @@ echo
 echo $i"────────────────────────────────    ─────"
 echo $i"|"$me" 1"$i" |"$cy" METASPLOIT INSTALL      "$i"|"$i"    |"$cy" B"$i" |"
 echo $i"|"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.        "$i"|"$i"    |"$cy" N"$i" |"
-echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"    |"$cy" G"$i" |"
-echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS           "$i"|"$i"    |"$cy" K"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.          "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB  "$i"|"$i"    |"$cy" G"$i" |"
+echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS             "$i"|"$i"    |"$cy" K"$i" |"
 echo $i"|"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    |"$cy" E"$i" |"
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"
 echo $me"¦"
@@ -100,12 +100,10 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-cd $HOME
-cd  aa
-sh aa
 cd  $HOME
 rm  -rf aa
 git clone https://github.com/shehan99099/aa
+echo $i"update successful"
 fi
 
 if [ $pil = 5 ]
