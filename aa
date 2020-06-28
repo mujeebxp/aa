@@ -23,12 +23,12 @@ echo $i" |"$pu" Contack Gmail :"$ku" dermawan0858@gmail.com"$i"      |"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo
 echo $i"────────────────────────────────    ─────"
-echo $i"|"$me" 1"$i" |"$cy" BRUTEFORCE FB PHP        "$i"|"$i"    |"$cy" B"$i" |"
-echo $i"|"$me" 2"$i" |"$cy" BRUTEFORCE FB BR1G4D3    "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me" 3"$i" |"$cy" BRUTEFORCE FB iqbalz     "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 1"$i" |"$cy" METASPLOIT INSTALL      "$i"|"$i"    |"$cy" B"$i" |"
+echo $i"|"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    |"$cy" E"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.        "$i"|"$i"    |"$cy" N"$i" |"
 echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"    |"$cy" G"$i" |"
-echo $i"|"$me" 5"$i" |"$cy" FACEBRUTE N1ght420       "$i"|"$i"    |"$cy" K"$i" |"
-echo $i"|"$me" 6"$i" |"$cy" BRUTEFORCE FB ( root )   "$i"|"$i"    |"$cy" E"$i" |"
+echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS           "$i"|"$i"    |"$cy" K"$i" |"
+echo $i"|"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    |"$cy" E"$i" |"
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"
 echo $me"¦"
 read -p"└──# " pil
@@ -38,9 +38,42 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/fbbrute
-cd fbbrute
-php fb.php
+#/termux/data/data/bin/bash
+apt-get update -y
+apt-get upgrade -y
+pkg install python2 -y
+pkg install python -y
+pkg install git -y
+pip install --upgrade pip
+pip install lolcat
+pkg install nano -y
+pip install --upgrade pip
+clear
+termux-setup-storage
+echo " " 
+echo " "
+pkg install wget -y
+pkg install openssh -y
+pkg install ruby -y
+pkg install unstable-repo -y
+pkg install metasploit -y
+cd $HOME
+cd ..
+ls
+cd usr
+ls
+cd opt
+ls
+mv metasploit-framework $HOME
+cd $HOME
+ls
+cd metasploit-framework
+git clone https://github.com/noob-hackers/bcp
+wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
+bash fix-ruby-bigdecimal.sh.txt
+echo " "
+echo "          ############# Completed ################" |lolcat                                                                                                        
+echo " "
 fi
 
 if [ $pil = 2 ]
@@ -48,9 +81,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/Fb-Cracker-v.3
-cd Fb-Cracker-v.3
-python2 crack.py
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 fi
 
 if [ $pil = 3 ]
@@ -68,9 +100,12 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-https://github.com/evait-security/weeman.git
-chmod +x *
-python2 weeman.py
+cd $HOME
+cd  aa
+sh aa
+cd  $HOME
+rm  -rf aa
+git clone https://github.com/shehan99099/aa
 fi
 
 if [ $pil = 5 ]
@@ -90,7 +125,7 @@ pkg install php
 pkg install ruby cowsay toilet figlet
 pkg install neofetch
 pkg install nano
-figlet -f slant " S U K S E S "|lolcat
+figlet -f slant " S U C C S S F U L"|lolcat
 fi
 
 if [ $pil = 6 ]
