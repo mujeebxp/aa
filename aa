@@ -37,27 +37,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-apt-get update -y
-apt-get upgrade -y
-pkg install python2 -y
-pkg install python -y
-pkg install git -y
-pip install --upgrade pip
-pip install lolcat 
-pkg install nano -y
-termux-setup-storage
-pkg install wget -y
-pkg install openssh -y
-pkg install ruby -y
-pkg install curl -y
-curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz
-gunzip metasploit_5.0.65-1_all.deb.gz
-dpkg -i metasploit_5.0.65-1_all.deb 
-apt -f install -y
-pkg install metasploit -y
-apt --fix-broken install -y
-dpkg --configure -a
-fi
+if
 
 if [ $pil = 2 ]
 then
