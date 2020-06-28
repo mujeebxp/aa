@@ -11,22 +11,18 @@ ku='\033[33;1m' #kuning
 echo
 echo
 echo
-echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
-echo $i" |"$cy"     INDONESIA DARK TERMUX ASSOCIATE"$i"         |"
+echo $i" |"$cy"                                    "$i"         |"
 echo $i" |"$me"─────────────────────────────────────────────"$i"|"
-echo $i" |"$pu" AUTHOR :"$ku" RISKI DARMAWAN  [FR13ND8]"$i"          |"
-echo $i" |"$pu" FACEBOOK :"$ku" Riski Darmawan"$i"                   |"
-echo $i" |"$pu" THANKS TO :"$cy"~ [MR.P3RC1L] [MR.S∆MAx] [MR.B]"$i"  |"
-echo $i" |"$cy"            ~ [cyber] [%MR.S%] [AldykaPrygh]"$i" |"
-echo $i" |"$pu" Contack WhatsApp :"$ku" 085835787069"$i"             |"
-echo $i" |"$pu" Contack Gmail :"$ku" dermawan0858@gmail.com"$i"      |"
+echo $i" |"$pu"                                "$i"          |"
+echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                   |"
+echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo
 echo $i"────────────────────────────────    ─────"
 echo $i"|"$me" 1"$i" |"$cy" METASPLOIT INSTALL      "$i"|"$i"    |"$cy" B"$i" |"
 echo $i"|"$me" 2"$i" |"$cy" INSTALL KALI LINUX.     "$i"|"$i"    |"$cy" E"$i" |"
-echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.        "$i"|"$i"    |"$cy" N"$i" |"
-echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB.         "$i"|"$i"    |"$cy" G"$i" |"
+echo $i"|"$me" 3"$i" |"$cy" INSTALL UBUNTU.          "$i"|"$i"    |"$cy" N"$i" |"
+echo $i"|"$me" 4"$i" |"$cy" TOOL UPDATE.  "$i"|"$i"    |"$cy" G"$i" |"
 echo $i"|"$me" 5"$i" |"$cy" INSTALL PKGS             "$i"|"$i"    |"$cy" K"$i" |"
 echo $i"|"$me" 6"$i" |"$cy" EXIT.                   "$i"|"$i"    |"$cy" E"$i" |"
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"
@@ -90,8 +86,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+git clone https://github.com/IqbalzNoobs/fb-brute
+cd fb-brute
+python2 brute.py
 fi
 
 if [ $pil = 4 ]
@@ -132,13 +129,5 @@ then
 clear
 figlet -f slant "E X I T"|lolcat
 sleep 2
-echo $cy"Terima Kasih Sudah Pakai Tool Saya"
-sleep 2
-echo $i"Bila Ada Kesalahan Kamu Bisa Nanya Kepada Saya"
-sleep 2
-echo $ku"WhatsApp :"$i" 085835787069"
-echo $ku"Facebook :"$i" Riski Darmawan"
-sleep 2
-echo $pur">> Thanks Yang Sudah Support Saya <<"
 exit
 fi
