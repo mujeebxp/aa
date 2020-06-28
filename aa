@@ -90,9 +90,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/IqbalzNoobs/fb-brute
-cd fb-brute
-python2 brute.py
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 fi
 
 if [ $pil = 4 ]
@@ -103,7 +102,9 @@ sleep 1
 cd  $HOME
 rm  -rf aa
 git clone https://github.com/shehan99099/aa
-echo $i"update successful"
+cd $HOME
+cd aa
+sh aa
 fi
 
 if [ $pil = 5 ]
