@@ -1,4 +1,4 @@
-#!/bin/bash
+#usr/bin/bash
 
 read -r -d '' encrypted_script << EOF2
 $(openssl aes-256-cbc -a -salt -in /dev/stdin -out /dev/stdout <<< "${script}")
