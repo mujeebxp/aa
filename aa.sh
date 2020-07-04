@@ -1,11 +1,6 @@
-#usr/bin/bash
-
-user=""
-pass=""
-
-echo $user
-echo $pass
-
+#!/bin/bash
+read -s -p "password:  " passwd
+printf "%b"  "\n"
 clear
 #dont copyright or mod this script
 #shehan lahiru
