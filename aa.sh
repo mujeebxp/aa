@@ -3,9 +3,6 @@
 user=""
 pass=""
 
-
-. ./scriptb
-
 echo $user
 echo $pass
 
