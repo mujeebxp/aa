@@ -25,6 +25,7 @@ echo $i"["$bi"¤"$i"]"$me"──────────────────
 sleep 2
 echo $i" Enter"$me" y"
 echo $i" exit"$me" n"
+read -p "Enter (y/n)" pil
 if [ $pil =  y ]
 then
 cd $HOME
