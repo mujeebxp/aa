@@ -28,7 +28,7 @@ then
 cd $HOME
 cd web_doctor
 python2 ps.py
-
+fi
 echo
 echo
 echo $pu"    ─────|─────────────────────────────|─────"
