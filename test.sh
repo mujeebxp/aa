@@ -23,21 +23,27 @@ echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 sleep 2
+
+echo
+echo
 echo $i" Enter"$me" y"
 echo $i" exit"$me" n"
 read -p "Enter (y/n)" pil
+
 if [ $pil =  y ]
 then
 cd $HOME
 cd web_doctor
 python2 ps.py
 fi
+
 if [ $pil = n ]
 then
 echo $i" Thanks for using"
 sleep 2
 exit
 fi
+
 echo
 echo
 echo $pu"    ─────|─────────────────────────────|─────"
@@ -206,11 +212,10 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 cd $HOME
-rm -rf web_doctor
-git clone https://github.com/shehan-9909/web_doctor
-cd web_doctor
-chmod 777 setup.sh
-./setup.sh
+rm -rf aa
+git clone https://github.com/shehan99099/aa
+cd aa
+sh test.sh
 fi
 
 if [ $pil = 11 ]
