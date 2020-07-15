@@ -33,7 +33,7 @@ read -p "Enter (y/n)" pil
 if [ $pil =  y ]
 then
 cd $HOME
-cd web_doctor
+cd aa
 python2 ps.py
 fi
 
