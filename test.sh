@@ -23,11 +23,19 @@ echo $i" |"$pu" FACEBOOK :"$ku" shehan lahiru"$i"                    |"
 echo $i" |"$pu" Contack WhatsApp :"$ku" +94774593440"$i"             |"
 echo $i"["$bi"¤"$i"]"$me"───────────────────────────────────────────"$i"["$bi"¤"$i"]"
 sleep 2
-if [ $pil"Enter" =  ]
+echo $i" Enter"$me" y"
+echo $i" exit"$me" n"
+if [ $pil =  y ]
 then
 cd $HOME
 cd web_doctor
 python2 ps.py
+fi
+if [ $pil = n ]
+then
+echo $i" Thanks for using"
+sleep 2
+exit
 fi
 echo
 echo
