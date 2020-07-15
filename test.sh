@@ -34,7 +34,7 @@ if [ $pil =  y ]
 then
 cd $HOME
 cd aa
-python2 ps.py
+python ps.py
 fi
 
 if [ $pil = n ]
